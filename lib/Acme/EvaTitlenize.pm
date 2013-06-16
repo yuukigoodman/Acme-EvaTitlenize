@@ -34,7 +34,7 @@ it under the same terms as Perl itself.
 
 =head1 AUTHOR
 
-Yuuki Tan-nai E<lt>yuuki.tannai@gaiax.comE<gt>
+Yuuki Tan-nai E<lt>yuki.tannai@gmail.comE<gt>
 
 =cut
 

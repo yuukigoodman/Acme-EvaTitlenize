@@ -52,5 +52,16 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/saisa6153/Acme-EvaTitlenize/issues"
+      },
+      "homepage" : "https://github.com/saisa6153/Acme-EvaTitlenize",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/saisa6153/Acme-EvaTitlenize.git",
+         "web" : "https://github.com/saisa6153/Acme-EvaTitlenize"
+      }
+   },
    "version" : "0.01"
 }
