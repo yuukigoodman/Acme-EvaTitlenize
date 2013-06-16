@@ -20,14 +20,14 @@ Acme::EvaTitlenize - Let's generate title like Evangelion
 
 $ evatitlenize -j 使 -l 徒、襲来
 
-使
+使    
 徒、襲来
 
 =head1 DESCRIPTION
 
-Acme::EvaTitlenize generate text like title of Evangelion animation.
+Acme::EvaTitlenize generate text like title of Evangelion animation.    
 
--j makes a text vertically.
+-j makes a text vertically.  
 
 -l makes a text horizontally.
 
