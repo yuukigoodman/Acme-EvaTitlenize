@@ -18,10 +18,9 @@ Acme::EvaTitlenize - Let's generate title like Evangelion
 
 =head1 SYNOPSIS
 
-$ evatitlenize -j 使 -l 徒、襲来
-
-使    
-徒、襲来
+  $ evatitlenize -j 使 -l 徒、襲来
+  使    
+  徒、襲来
 
 =head1 DESCRIPTION
 
