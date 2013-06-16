@@ -4,7 +4,7 @@
       "Yuuki Tan-nai <yuki.tannai@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v0.5.3, CPAN::Meta::Converter version 2.130880",
+   "generated_by" : "Minilla/v0.5.3, CPAN::Meta::Converter version 2.131490",
    "license" : [
       "perl_5"
    ],
@@ -42,6 +42,8 @@
       },
       "runtime" : {
          "requires" : {
+            "Encode" : "2.39",
+            "Text::VisualWidth" : "0.02",
             "perl" : "5.008005"
          }
       },
@@ -54,13 +56,13 @@
    "release_status" : "unstable",
    "resources" : {
       "bugtracker" : {
-         "web" : "https://github.com/saisa6153/Acme-EvaTitlenize/issues"
+         "web" : "https://github.com/papix/Acme-EvaTitlenize/issues"
       },
-      "homepage" : "https://github.com/saisa6153/Acme-EvaTitlenize",
+      "homepage" : "https://github.com/papix/Acme-EvaTitlenize",
       "repository" : {
          "type" : "git",
-         "url" : "git://github.com/saisa6153/Acme-EvaTitlenize.git",
-         "web" : "https://github.com/saisa6153/Acme-EvaTitlenize"
+         "url" : "git://github.com/papix/Acme-EvaTitlenize.git",
+         "web" : "https://github.com/papix/Acme-EvaTitlenize"
       }
    },
    "version" : "0.01",
