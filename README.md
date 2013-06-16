@@ -1,10 +1,12 @@
 # NAME
 
-Acme::EvaTitlenize - It's new $module
+Acme::EvaTitlenize - Let's generate title like Evangelion
 
 # SYNOPSIS
 
-    use Acme::EvaTitlenize;
+$ evatitlenize -j 使 -l 徒、襲来
+
+
 
 # DESCRIPTION
 

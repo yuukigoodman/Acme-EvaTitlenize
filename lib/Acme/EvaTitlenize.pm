@@ -14,11 +14,12 @@ __END__
 
 =head1 NAME
 
-Acme::EvaTitlenize - It's new $module
+Acme::EvaTitlenize - Let's generate title like Evangelion
 
 =head1 SYNOPSIS
 
-    use Acme::EvaTitlenize;
+$ evatitlenize -j 使 -l 徒、襲来
+
 
 =head1 DESCRIPTION
 
