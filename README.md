@@ -21,4 +21,4 @@ it under the same terms as Perl itself.
 
 # AUTHOR
 
-Yuuki Tan-nai <yuuki.tannai@gaiax.com>
+Yuuki Tan-nai <yuki.tannai@gmail.com>

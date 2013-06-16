@@ -1,7 +1,7 @@
 {
    "abstract" : "Let's generate title like Evangelion",
    "author" : [
-      "Yuuki Tan-nai <yuuki.tannai@gaiax.com>"
+      "Yuuki Tan-nai <yuki.tannai@gmail.com>"
    ],
    "dynamic_config" : 0,
    "generated_by" : "Minilla/v0.5.3, CPAN::Meta::Converter version 2.130880",
@@ -63,5 +63,8 @@
          "web" : "https://github.com/saisa6153/Acme-EvaTitlenize"
       }
    },
-   "version" : "0.01"
+   "version" : "0.01",
+   "x_contributors" : [
+      "Yuuki Tan-nai <yuuki.tannai@gaiax.com>"
+   ]
 }
