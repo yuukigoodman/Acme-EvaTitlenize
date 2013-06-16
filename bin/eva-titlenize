@@ -1,31 +1,28 @@
-package Acme::EvaTitlenize;
-use 5.008005;
+#!perl
 use strict;
 use warnings;
 use utf8;
-use Encode qw/decode_utf8 encode_utf8/;
 
+use Acme::EvaTitlenize;
+use Encode;
 use Getopt::Long qw(:config posix_default no_ignore_case gnu_compat);
 
-our $VERSION = "0.01";
+my $upper_right;
 
-sub print_l{
-    print $_[1];
-};
-
-sub print_j{
-    foreach (split //, decode_utf8 $_[1]){
-      print encode_utf8 $_."\n";
-    }   
-};
-
-
-GetOptions(
-  'j=s' => \&print_j,
-  'l=s' => \&print_l,
+Getopt::Long::GetOptions(
+    'u' => \$upper_right,
 );
-    
-1;
+
+my $str1 = Encode::decode_utf8(shift @ARGV);
+my $str2 = Encode::decode_utf8(shift @ARGV);
+
+if ($upper_right) {
+    print Encode::encode_utf8( Acme::EvaTitlenize::upper_right($str1, $str2) );
+} else {
+    print Encode::encode_utf8( Acme::EvaTitlenize::lower_left($str1, $str2) );
+}
+
+print "\n";
 
 __END__
 
