@@ -1,10 +1,10 @@
 {
-   "abstract" : "Let's generate title like Evangelion",
+   "abstract" : "Generate strings like title of Evangelion",
    "author" : [
-      "Yuuki Tan-nai <yuki.tannai@gmail.com>"
+      ") <yuki.tannai@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v0.5.3, CPAN::Meta::Converter version 2.131490",
+   "generated_by" : "Minilla/v0.5.3, CPAN::Meta::Converter version 2.130880",
    "license" : [
       "perl_5"
    ],
@@ -56,17 +56,19 @@
    "release_status" : "unstable",
    "resources" : {
       "bugtracker" : {
-         "web" : "https://github.com/papix/Acme-EvaTitlenize/issues"
+         "web" : "https://github.com/saisa6153/Acme-EvaTitlenize/issues"
       },
-      "homepage" : "https://github.com/papix/Acme-EvaTitlenize",
+      "homepage" : "https://github.com/saisa6153/Acme-EvaTitlenize",
       "repository" : {
          "type" : "git",
-         "url" : "git://github.com/papix/Acme-EvaTitlenize.git",
-         "web" : "https://github.com/papix/Acme-EvaTitlenize"
+         "url" : "git://github.com/saisa6153/Acme-EvaTitlenize.git",
+         "web" : "https://github.com/saisa6153/Acme-EvaTitlenize"
       }
    },
    "version" : "0.01",
    "x_contributors" : [
-      "Yuuki Tan-nai <yuuki.tannai@gaiax.com>"
+      "Yuuki Tan-nai <yuuki.tannai@gaiax.com>",
+      "papix <mail@papix.net>",
+      "saisa6153 <yuuki@tan-nai.com>"
    ]
 }

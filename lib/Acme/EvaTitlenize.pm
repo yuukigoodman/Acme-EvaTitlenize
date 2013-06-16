@@ -38,21 +38,26 @@ __END__
 
 =head1 NAME
 
-Acme::EvaTitlenize - Let's generate title like Evangelion
+Acme::EvaTitlenize - Generate strings like title of Evangelion
 
 =head1 SYNOPSIS
 
-  $ evatitlenize -j 使 -l 徒、襲来
-  使    
-  徒、襲来
+  print Acme::EvaTitlenize::lower_left(qw/奇跡の 価値は/);
+  # output:
+  #   奇
+  #   跡
+  #   の価値は
+
+  print Acme::EvaTitlenize::upper_right(qw/奇跡の 価値は/);
+  # output:
+  #   奇跡の価
+  #         値
+  #         は
+  
 
 =head1 DESCRIPTION
 
-Acme::EvaTitlenize generate text like title of Evangelion animation.    
-
--j makes a text vertically.  
-
--l makes a text horizontally.
+Acme::EvaTitlenize generate strings like title of Evangelion.
 
 =head1 LICENSE
 
@@ -63,7 +68,7 @@ it under the same terms as Perl itself.
 
 =head1 AUTHOR
 
-Yuuki Tan-nai E<lt>yuki.tannai@gmail.comE<gt>
+Yuuki Tan-nai(@saisa6153) E<lt>yuki.tannai@gmail.comE<gt>
 
 =cut
 
